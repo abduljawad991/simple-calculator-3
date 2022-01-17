@@ -16,7 +16,7 @@ def divide(x, y):
     return x / y
 
 #This function multiplies two numbers 3 times
-def thrice(x, y):
+def triple(x, y):
     return x * y * 3
 
 
@@ -51,7 +51,7 @@ while True:
             print(X, "/", Y, "=", divide(X, Y))
         
         elif choice == '5':
-            print("Result of tripling", X,"and", Y,"is", 3*multiply(X, Y))
+            print("Result of tripling", X,"and", Y,"is", triple(X, Y))
         # check if user wants another calculation
         # break the while loop if answer is no
         next_calculation = input("Let's do next calculation? (yes/no): ")
